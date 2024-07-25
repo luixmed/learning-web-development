@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit Content</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      .container-1 {
+        width: 100%;
+        background-color: bisque;
+      }
+      .container-2 {
+        width: 40%;
+        background-color: lightcoral;
+      }
+      .container-3 {
+        width: 20%;
+        background-color: lightgreen;
+      }
+      .box {
+        font-size: 2rem;
+        width: fit-content;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container container-1">
+      <div class="box">
+        This is some text inside a box with fit-content width.
+      </div>
+    </div>
+    <div class="container container-2">
+      <div class="box">
+        This is some text inside a box with fit-content width.
+      </div>
+    </div>
+    <div class="container container-3">
+      <div class="box">
+        This is some text inside a box with fit-content width.
+      </div>
+    </div>
+  </body>
+</html>
